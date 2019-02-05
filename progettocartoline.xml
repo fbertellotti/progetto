@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prova.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM 'myDTD.dtd'>
+<teiCorpus>  
+  <teiHeader xml:id="corpus">
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Cartoline</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascritto da</resp>
+                    <persName xml:id="FB">Francesca Bertellotti </persName>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune di La Spezia</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Edizione studenti UNIPI
+                    <!-- COMPILAZIONE -->
+                    <date when="2018">2018</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <persName xml:id="TC">Tommaso Castagneto</persName>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <persName ref="#TC">Tommaso Castagneto</persName>
+                    <persName ref="#FB">Francesca Bertellotti</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <persName xml:id="GP">Giacomo Paolicchi</persName>
+                    <persName xml:id="ES">Enrica Salvatori</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <persName xml:id="MR">Marzia Ratti</persName>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher> 
+                     Unipi 
+                </publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <p> Cartoline provenienti dal  Museo Civico Etnografico "Giovanni Podenzana", La Spezia </p>
+            </sourceDesc>
+            
+      
+        </fileDesc>
+        
+ </teiHeader>
+ <xi:include href="cartolina1.xml"/>
+ <xi:include href="cartolina2.xml"/>
+ 
+
+
+
+
+
+    
+</teiCorpus>
+    
+
+

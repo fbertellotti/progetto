@@ -1,0 +1,153 @@
+
+body{
+    font-family: 'PT Serif', serif;
+    background-color: #efeff5; 
+    font-size: 18px;
+    margin:0px;
+    }
+
+/* caratteristiche delle foto */
+.foto{
+    height: 621px;
+    width: auto;
+    margin-left: 5%;
+}
+
+#retrouno, #redue,  #cartolinaheader2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.centro{
+    text-align: center;
+}
+
+/* caratteristiche descrizione */
+
+#descrizione, #descrizione2 {
+    float: right;
+    width:50%;
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-top:-300px;
+    font-size: 18px;
+}
+
+
+#testo{
+    margin-top:-600px;
+    font-size: 18px;
+    float: right;
+    width:50%;
+    height: 65%;
+    overflow: scroll;
+    margin-right: -10%;
+}
+
+#testo2{
+    margin-top:-600px;
+    font-size: 18px;
+    float: right;
+    width:50%;
+    height: 65%;
+    overflow: scroll;
+    margin-right: -10%;
+}
+
+
+#cartolina_4{
+    height: 100%;
+    margin-right: 5%;
+}
+
+
+/* corsivo per quello che è scritto a mano */
+#quattro, #cinque, #otto, #nove{
+       font-style: italic; 
+}
+
+
+/* bottoni */
+
+#atitolouno, #atitolodue {
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 75%;
+  border-radius: 50%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#titolouno, #titolodue {
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 3%;
+  border-radius: 50%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*clicca l'immagine e scopri il testo corrispondente!*/
+
+#click{
+    color:#b30000;
+    font-size:20px;
+}
+
+/* foto iniziali sulla home */
+#home{
+    text-align:center;
+}
+
+#home1{
+   margin-right: 5%;
+}
+
+
+#home1:hover, #home2:hover{
+  opacity: 0.7;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+/* link degli illustrtori */
+
+a:link{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer{
+    background-color: #333333;
+    color: white; 
+    width: 100%;
+    margin:0px;
+    padding:3%;
+    height: 10%;
+}
+
+
+span{
+    float:left;
+    width: 25%;
+}

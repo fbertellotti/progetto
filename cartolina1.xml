@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prova.xsl"?>
+<!DOCTYPE TEI SYSTEM 'myDTD.dtd'>
+<TEI xml:id="cartolina_1">
+   <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" xml:id="titolouno">Abbraccio al tramonto</title>
+                <author ref="#M">Mastroianni</author>
+            </titleStmt>
+             <publicationStmt> 
+                <publisher>
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>    
+            </publicationStmt>
+          
+            <notesStmt>
+                <note> questa cartolina non presenta francobolli nè destinatario. 
+                Si suppone che la città di arrivo sia comunque Ravenna dato che 
+                la cartolina è rivolta ad Oliva, coinvolta nella altre cartoline
+                del progetto.</note>
+            </notesStmt> 
+
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">[Languido abbraccio]</title>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher> Cromoscultura A.Traldi </publisher>
+                    <!-- LUOGO -->
+                    <pubPlace xml:id="RO">Roma</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date when="1917"> 1917</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", sezione dei cimeli garibaldini e della Prima Guerra Mondiale.</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno> 7694_021_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="M" >
+                        <persName>
+                            <forename>Domenico</forename>
+                            <surname>Mastroianni</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="2">[artist]</occupation>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName> Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna </district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                        
+                    </place>
+                    <place xml:id="MI">
+                        <placeName>Milano</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune"> Milano</district>
+                        <district type="provincia">MI</district>
+                        <country key="N">IT</country>
+                       
+                    </place>
+                </listPlace>
+
+                <listOrg>
+                    <org xml:id="UNIPI">
+                        <orgName>Università di Pisa</orgName>
+                        <desc>L'università di Pisa è una delle più antiche d'Italia</desc>
+                    </org>
+                </listOrg>
+
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="MI">Milano</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date  when="1917-03-04">04/03/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Coppia di innamorati</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+</teiHeader>
+<text type="cartolina">
+        <!-- TRASCRIZIONE -->
+        <body xml:lang="ita">
+            <div type="fronte" xml:id="fronte_prima_cartolina">
+            <pb facs="cartolina1.png" />
+                <figure>
+                    <graphic url="cartolina1.png" xml:id="fronte1"/>
+                    <figDesc xml:id="descrizione"> al tramonto due innamorati si scambiano effusioni in cima a una roccia, sotto una rovina di un arco antico ricoperto da edera. 
+                    I due sono circondati da un gregge di pecore, un agnellino è in braccio al ragazzo, mentre lei porta una canestra di rose.
+                    L'azione si svolge su un'altura di fronte al mare e in lontananza possiamo ammirare uno scoglio.  </figDesc>
+                    <head>Languido abbraccio di <persName ref="#M">Mastroianni</persName></head>
+                </figure>
+            </div>
+            <div  type="retro" xml:id="retro_prima_cartolina"> 
+            <pb facs="cartolina1r.png" xml:id="retro1" />
+                <div type="message" xml:id="testo">
+                    <div facs="#cromoscultura" xml:id="uno"><p>Cromoscoltura <abbr>A.</abbr> Traldi- <placeName ref="#MI">Milano </placeName> <lb /> N. <num>01311</num> Languido abbandono <foreign xml:lang="fr">L'abandon</foreign> </p></div>
+                    <div facs="#numero" xml:id="due"><p><add><num type="cardinal">21</num></add></p></div>
+                    <div facs="#produzione" xml:id="tre"><p> PRODUZIONE ITALIANA</p> </div> 
+                    <div facs="#data" xml:id="quattro">
+                    <opener>
+                     <dateline>
+                      <placeName ref="#MI">Milano</placeName>, <distinct type="archaic">lì</distinct> 
+                      <date>4/3-1917</date> <lb/> 
+                     </dateline>
+                    </opener> 
+                    </div>
+                    <div facs="#discorso" xml:id="cinque"><p>Mia buona <persName ref="#OT">Oliva</persName> <lb/>
+                    Il tedio mi assale qui a <placeName ref="#MI"><lb/>Milano</placeName> dove si suol veni-<lb/>re per obliare le disillusio-<lb/>ni e le
+                    amarezze della vita.<lb/> È il tuo pensiero costante, af-<lb/>fettuoso che mi infonde <lb/>la nostalgia della tua <lb/> lontananza.
+                    <persName ref="#OT">Oliva</persName>, <persName ref="#OT">Oliva</persName> è l’amor tuo <lb/>che mi oscura tutte le gioie <lb/>della vita.... t’amo tanto <lb/>tanto e
+                    mi strugge il desiderio <lb/> di averti vicino. </p><lb/>
+                    <closer>Un bacio assortissimo<lb/> 
+                    <signed facs="#firma" rend="underline">Giovannino </signed> </closer></div>
+                 </div>
+            </div>
+        </body>
+ </text>
+
+
+    <facsimile>
+        
+        <surface xml:id="fronte" start="#fronte_prima_cartolina" type='fronte'>
+            <graphic  url='cartolina1.png' />
+            <zone ulx="4" uly="4" lrx="1015" lry="1602" /> 
+        </surface>
+        
+        
+        <surface xml:id="retro" start="#retro_prima_cartolina" type="retro">          
+            <graphic url='cartolina1r.png' xml:id="retrouno"/>
+            <zone xml:id="data" ulx="145" uly="36" lrx="352" lry="77" />
+            <zone xml:id="firma" ulx="78" uly="574" lrx="374" lry="613" />
+            <zone xml:id="discorso" ulx="9" uly="57" lrx="391" lry="613" />
+            <zone xml:id="produzione" ulx="134" uly="316" lrx="242" lry="328" />
+            <zone xml:id="cromoscultura" ulx="28" uly="13" lrx="301" lry="52" />
+            <zone xml:id="numero" ulx="329" uly="4" lrx="384" lry="37" />
+            
+
+            
+        </surface>
+        
+    </facsimile>
+</TEI>
+    

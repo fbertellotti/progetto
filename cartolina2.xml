@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prova.xsl"?>
+<!DOCTYPE TEI SYSTEM 'myDTD.dtd'>
+<TEI xml:id="cartolina_2">
+ <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" xml:id="titolodue">Bambini a teatro</title>
+                <author ref="#B">Bertiglia</author>
+            </titleStmt>
+
+<publicationStmt> 
+                <publisher>
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>    
+            </publicationStmt>
+            
+            <notesStmt>
+                <note> sul retro troviamo stampato "Proprietà artistica riservata-n 1006"e l'autore dell'opera di fronte</note>
+            </notesStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">La gelosia</title>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date when="1917"> 1917</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", sezione dei cimeli garibaldini e della Prima Guerra Mondiale.</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno> 7694_214_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    <person xml:id="G">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person xml:id="O">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="B">
+                        <persName>
+                            <forename>Aurelio</forename>
+                            <surname>Bertiglia</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="2">[artist]</occupation>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="R">
+                        <placeName>Ravenna </placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna </district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                        
+                    </place>
+                    <place>
+                        <placeName xml:id="MO">Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune"> Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                        
+                    </place>
+                </listPlace>
+
+                <listOrg>
+                    <org xml:id="PI">
+                        <orgName>Università di Pisa</orgName>
+                        <desc>L'università di Pisa è una delle più antiche d'Italia</desc>
+                    </org>
+                </listOrg>
+
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="MI">Milano</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date  when="1917-05-30">30/05/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Oliva Turtura</persName>
+                    <placeName>Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Due bambini a teatro, lei guarda lui con aria gelosa, data dal fatto che lui stia guardando le ballerine con il binocolo</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+</teiHeader>
+<text type="cartolina">
+        <!-- TRASCRIZIONE -->
+        <body xml:lang="ita">
+            <div type="fronte" xml:id="fronte_seconda_cartolina">
+            <pb facs="cartolina2.png" />
+                <figure>
+                    <graphic url="cartolina2.png" xml:id="fronte2"/>
+                    <figDesc xml:id="descrizione2"> a teatro ci sono due bambini in galleria, vestiti elegantemente. Lui con il 
+                    binocolo osserva le ballerine di cui si vedono le gambe sulla destra e la bimba
+                    per questo arrossisce gelosa, portandosi un dito alla bocca. </figDesc>
+                    <head></head>
+                </figure>
+            </div>
+            <div  type="retro" xml:id="retro_seconda_cartolina"> 
+            <pb facs="cartolina2r.png" xml:id="retro2"/>
+                <div type="message" xml:id="testo2">
+                    <div facs="#made" xml:id="sei"><p> Made in <foreign xml:lang="en"><country>Italy</country></foreign> </p> </div> 
+                    <div facs="numero2" xml:id="sette"><p><add><num type="cardinal">214</num></add></p></div>
+                    <div facs="#data2" xml:id="otto">
+                    <opener>
+                     <dateline>
+                      <placeName ref="#MO">Modena</placeName>, <distinct type="archaic">lì</distinct> 
+                      <date>30/5-1917</date>  
+                     </dateline>
+                    </opener> 
+                    </div>
+                    <div facs="#lettera" xml:id="nove"><p><persName ref="OT">Oliva </persName> mia,  <lb/>
+                    Domani ti parlerò di tante cose <lb/> buone e belle che ti faranno pia- <lb/>
+                    cere, ti parlerò dei miei studi <lb/> della mia vita, dell’animo mio, <lb/>
+                     oggi no … è la vigilia è il <lb/> giorno che precede il principio <lb/>
+                      delle passioni, della fede, della <lb/> volontà.
+                      Domani ti voglio spedire qual- <lb/> che cosa che ti ricordi quel giorno, <lb/>
+                       qualche cosa di indelebile che nell’av- <lb/>venire ricordandoti di quello, ti faccia <lb/>
+                        ripensare al giorno in cui ti fu dona- <lb/>to, al giorno in cui il tuo <persName ref="#GC">Giovannino</persName> <lb/> ha voluto amarti: <lb/> </p>
+                        <closer>Un bacio  <signed facs="#firma" rend="underline">Giovannino</signed></closer></div> <lb/>
+                    
+                    <div facs="#gelosia" xml:id="dieci"><p > La Gelosia <foreign xml:lang="fr">Jalcusie</foreign></p> </div>
+                    <div facs="#proprieta" xml:id="undici"><p> Produzione artistica Riservata- <abbr>n</abbr> <num>1006</num></p> </div>
+                </div>
+            </div>
+        </body>
+ </text>
+
+
+    <facsimile>
+        
+        <surface xml:id="frontedue" start="#fronte_seconda_cartolina" type='fronte'>
+            <graphic  url='cartolina2.png' />
+            <zone ulx="4" uly="6" lrx="514" lry="813" /> 
+        </surface>
+        
+        
+        <surface xml:id="retrodue" start="#retro_seconda_cartolina" type="retro">          
+            <graphic url='cartolina2r.png' xml:id="redue"  />
+            <zone xml:id="data2" ulx="136" uly="4" lrx="352" lry="43" />
+            <zone xml:id="numero2" ulx="310" uly="47" lrx="365" lry="72" />
+            <zone xml:id="lettera" ulx="5" uly="99" lrx="390" lry="483" />
+            <zone xml:id="firma2" ulx="214" uly="571" lrx="388" lry="614" />
+            <zone xml:id="made" ulx="61" uly="68" lrx="130" lry="103" />
+            <zone xml:id="gelosia" ulx="337" uly="494" lrx="382" lry="572" />
+            <zone xml:id="proprieta" ulx="132" uly="578" lrx="325" lry="599" />
+            
+            
+        </surface>
+        
+    </facsimile>
+</TEI>
